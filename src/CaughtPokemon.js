@@ -7,7 +7,6 @@ const CaughtPokemon = ({date}) => {
   const randomPokemon = pokemonArray[Math.floor(Math.random() * pokemonArray.length)];
   const catchPokemon = () => {
     setCaught(caught.concat([randomPokemon].splice(',')))
-
   }
   return (
     <>
