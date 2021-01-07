@@ -2,7 +2,7 @@ import React from "react";
 import Logo from './Logo';
 import BestPokemon from './BestPokemon';
 import CaughtPokemon from './CaughtPokemon';
-import PokemonMoves from "./PokemonMoves";
+import PokemonMovesSelector from "./PokemonMovesSelector";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -18,7 +18,7 @@ const App = () => {
     <Logo appName = 'Osagie' handleClicked = {logWhenClicked} />
     <BestPokemon abilities = {abilities} />
     <CaughtPokemon date = {date}/>
-    <PokemonMoves/>
+    <PokemonMovesSelector />
   </div>
   );
 }

@@ -6,7 +6,7 @@ const CaughtPokemon = ({date}) => {
   const pokemonArray = ["Puckachu", "Eevee", "Snorlax", "Charizard", "Mewtwo", "Ditto", "Squirtle", "Gengar", "Charmander", "Lucario", "Bulbasaur", "Gyarados", "Gardevoir", "Mew", "Lapras", "Rayquaza"]
   const randomPokemon = pokemonArray[Math.floor(Math.random() * pokemonArray.length)];
   const catchPokemon = () => {
-    setCaught(caught.concat([randomPokemon].splice(',')))
+    setCaught(caught.concat([randomPokemon]))
   }
   return (
     <>
